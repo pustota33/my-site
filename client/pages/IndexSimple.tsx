@@ -50,7 +50,7 @@ export default function IndexSimple() {
           {/* Header */}
           <div className="p-6 border-b border-gray-200">
             <h3 className="text-2xl font-bold text-gray-900 mb-2">Связаться со мной</h3>
-            <p className="text-gray-600">Выберите удобный способ свзи для записи на сеанс ативации Кундалини</p>
+            <p className="text-gray-600">Выберите удобный способ связи для записи на сеанс активации Кундалини</p>
           </div>
 
           {/* Contact options */}
@@ -126,19 +126,19 @@ export default function IndexSimple() {
     },
     {
       question: "А если я ничего не почувствую?",
-      answer: "Это не обязательно про «почувствовать». Активация Кундалини — это процесс, который разворачивается внутри естественно и постепенно. Даже если телесных ощущений не будет, энергия всё равно начнёт работать, мягко активируя ваши внутренние ресурсы и помогая интегрировать новые состояния сознания. Эффект часто проявляется накопительно — через несколько часов, дней или после повторных сессий."
+      answer: "Это не обязательно про «почувствовать». Активация Кундалини — это процесс, который разворачивается внутри естественно и постепенно. Даже если телесных ощущений не будет, энергия всё равно начнёт работать, мягко активируя ваши внутренние ресурсы и помогая интегрировать новые состояния сознания. Эффект часто проявляется накопительно — через несколько часов, дней или после п��вторных с��ссий."
     },
     {
       question: "Мне кажется, у меня ничего не получится",
-      answer: "Активация Кундалини — это не про усилия или контроль, а про мягкое пробуждение энергии, которая уже есть в вас. Вы просто приходите в безопасное пространство, позволяете процессу идти своим естественным ходом, а энергя сама делает своё дело. Каждый опыт уникален — нет правильного или неправильного результата."
+      answer: "Активация Кундалини — это не про усилия или контроль, а про мягкое пр��буждение энергии, которая уже есть в вас. Вы просто приходите в безопасное пространство, позволяете процессу идти своим естественным ходом, а энергия сама делает своё дело. Каждый опыт уникален — нет правильного или неправильного результата."
     },
     {
       question: "Это точно безопасно?",
-      answer: "Да, при соблюдении рекомендаций и сопровождении опытного проводника процесс безопасен. Активация Кундалини не предполагает насилия над телом или психикой и ведётся мягко и постепенно. Возможны эмоциональные высвобождения или спонтанные движения — это естественная реакция организма. При острых психических состояниях или серьёзных медицинских противопоказаниях важно обсудить с проводником перед сессией."
+      answer: "Да, при соблюдении рекомендаций и сопровождении опытного проводника процесс безопасен. Активация Кундалини не предполагает насилия над телом или психикой и ведётся мягко и постепенно. Возможны эмоциональные высвобождения или спонтанные движения — это естественная реакция ор��анизма. При ��стрых психических с��стояниях или серьёзных медицинских противопоказаниях важно обсудить с проводником перед сессией."
     },
     {
-      question: "Онлайн работает так же, как офлайн?",
-      answer: "Да, энергия передаётся и в онлайн-формате. Многие участники отмечают, что дистанционные сессии ощущаются так е глубоко, как и очные. Разница может быть лишь в том, что для новичков процесс иногда включается быстрее на живых встречах. В любом случае энергия сама находит путь независимо от расстояния."
+      question: "Онла��н работает так же, как офлайн?",
+      answer: "Да, энергия передаётся и в онлайн-формате. Многие участники отмечают, что дистанционные сессии ощущаются так же глубоко, как и очные. Разница может быть лишь в том, что для новичков процесс иногда включается быстрее на живых встречах. В любом случае энергия сама находит путь независимо от расстояния."
     }
   ];
 
@@ -148,9 +148,9 @@ export default function IndexSimple() {
       <header className="bg-white border-b border-purple-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="text-2xl font-bold text-purple-600">
+            <a href="https://www.активация-кундалини.рф" className="text-2xl font-bold text-purple-600 inline-flex cursor-pointer">
               Активация Кундалини
-            </div>
+            </a>
             <button onClick={() => setMobileOpen(!mobileOpen)} aria-label="Открыть меню" className="md:hidden text-gray-700 hover:text-purple-600 transition-colors">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -193,24 +193,25 @@ export default function IndexSimple() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-8">
-              <span className="text-gray-900">Активация</span><br />
-              <span className="text-gray-900">Кундалини</span><br />
+              <span className="font-extrabold" style={{ color: 'rgba(0,0,0,0.73)', textShadow: '0 1px 0 rgba(0,0,0,0.15)' }}>Активация</span><br />
+              <span className="font-extrabold" style={{ color: 'rgba(0,0,0,0.73)', textShadow: '0 1px 0 rgba(0,0,0,0.15)' }}>Кундалини</span><br />
               <span className="text-purple-500 font-bold">
-                <p>Мягкое пробуждение энергии и осознанности изнутри</p>
+                <div className="mx-auto" style={{ maxWidth: '942px' }}>
+                  <p>Откройте путь к глубокой трансформации через мягкое раскрытие энергии Кундалини.</p>
+                  <p>Без усилий.</p>
+                </div>
               </span>
             </h1>
             <div className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-              <p>
-                Откройте путь к глубокой трансформации через активацию
-                энергии Кундалини. Обретите гармонию, исцеление и духовное
-                пробуждение в безопасной и поддерживающей среде.
-              </p>
+              <div>
+                <p>Обретите гармонию, исцеление и духовное пробуждение в безопасной и поддерживающей среде.</p>
+              </div>
             </div>
             <button
               onClick={handleContactClick}
               className="bg-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-700 transition-colors shadow-lg"
             >
-              Записаться на Сеанс
+              Записаться на активацию
             </button>
           </div>
         </div>
@@ -246,15 +247,11 @@ export default function IndexSimple() {
                     Меня зовут Денис, я проводник энергии Кундалини. Моя
                     задача — создать для вас безопасное пространство, где
                     энергия может проявиться естественно и без усилий. Я
-                    сопровождаю процесс с вниманием и поддерживаю
+                    внимательно сопровождаю процесс и поддерживаю
                     интеграцию после сессии.
                   </p>
                   <p>
-                    В этой практике я не ставлю себя в центр — на первом
-                    месте всегда стоит энергия, которая ведёт и
-                    направляет, и участник процесса. Моё предназначение —
-                    быть проводником и держать пространство, в котором она
-                    раскрывается для каждого по-своему.
+                    В этой практике на первом месте всегда стоит энергия и тот, кто её принимает. Моё предназначение — быть проводником и держать пространство, в котором она раскрывается для каждого по-своему.
                   </p>
                 </div>
               </div>
@@ -295,7 +292,7 @@ export default function IndexSimple() {
             </h3>
             <div className="prose prose-lg max-w-none text-gray-600">
               <p>
-                Кундалини — это спящая энергия внутри каждого человека. Активация помогает раскрыть её мягко и безопано, чтобы восстановить жизненные силы, улучшить эмоциональное состояние и выйти на новый уровень осознанности.
+                Кундалини — это спящая энергия внутри каждого человека. Активация помогает раскрыть её мягко и безопасно, чтобы восстановить жизненные силы, улучшить эмоциональное состояние и выйти на новый уровень осознанности.
               </p>
             </div>
           </div>
@@ -310,9 +307,9 @@ export default function IndexSimple() {
                 <p>
                   Активация Кундалини — это прямая передача жизненной
                   энергии, которая запускает процесс пробуждения. Во время
-                  сессии у части людей самопроизольно возникают движения
+                  сессии у части людей самопроизвольно возникают движения
                   тела, эмоциональные высвобождения, состояния
-                  расширенного восприятия или глубокие инсайты — это
+                  расширения персонального сознания или глубокие инсайты — это
                   возможные эффекты, а не цель.
                 </p>
               </div>
@@ -320,7 +317,7 @@ export default function IndexSimple() {
                 <strong>Главная особенность подхода:</strong>
                 <div>
                   <p>
-                    Энергия входит через макушку и движется к корню (а
+                    Энергия входит через макушку и движется к нижней чакре, а
                     затем может течь в обоих направлениях), что описывают
                     как естественный и постепенный процесс пробуждения.
                   </p>
@@ -358,10 +355,10 @@ export default function IndexSimple() {
             </h3>
             <div className="prose prose-lg max-w-none text-gray-600 space-y-4">
               <ul className="space-y-3">
-                <li>• Снятие блоков и напряжения</li>
+                <li>• Снятие бл��ков и напряжения</li>
                 <li>• Пробуждение энергии и творческого потока</li>
                 <li>• Освобождение от стресса и зажимов</li>
-                <li>• Глубокие инсайы и чувство единства</li>
+                <li>• Глубокие инсайты и чувство единства</li>
                 <li>• Улучшение эмоционального состояния</li>
               </ul>
             </div>
@@ -407,7 +404,7 @@ export default function IndexSimple() {
                   <User className="w-6 h-6 text-yellow-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Индивидуальная онлйн сессия</h4>
+                  <h4 className="font-semibold text-gray-900">Индивидуальная онлайн сессия</h4>
                   <p className="text-gray-600">10000 рублей</p>
                 </div>
               </div>
@@ -417,7 +414,7 @@ export default function IndexSimple() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Групповая офлайн сессия</h4>
-                  <p className="text-gray-600">10000 рублей</p>
+                  <p className="text-gray-600">10000 рубл��й</p>
                 </div>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg flex items-center">
@@ -425,7 +422,7 @@ export default function IndexSimple() {
                   <User className="w-6 h-6 text-yellow-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Индивидуальная офлайн сессия</h4>
+                  <h4 className="font-semibold text-gray-900">Индивидуальная офлай�� сессия</h4>
                   <p className="text-gray-600">25000 рублей</p>
                 </div>
               </div>
@@ -445,7 +442,7 @@ export default function IndexSimple() {
                 onClick={handleContactClick}
                 className="border-2 border-purple-600 text-purple-600 px-8 py-3 rounded-full text-lg font-semibold hover:bg-purple-600 hover:text-white transition-colors"
               >
-                Уточнть ближайшие даты
+                Уточнить ближайшие даты
               </button>
             </div>
           </div>
@@ -453,14 +450,14 @@ export default function IndexSimple() {
           {/* Video Section */}
           <div className="text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-8">
-              Посмотрите, как проходят сеансы
+              <p>Посмотрите, как проходят сеансы</p>
             </h3>
             <div className="max-w-4xl mx-auto">
               <div className="relative bg-black rounded-2xl overflow-hidden shadow-2xl">
                 <iframe
                   className="w-full aspect-video"
                   src="https://rutube.ru/play/embed/365c972c172b29c80b622b2cc657ced1"
-                  title="Видео — ак проходят сеансы"
+                  title="Видео — как проходят сеансы"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
@@ -477,23 +474,23 @@ export default function IndexSimple() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h4 className="font-semibold text-lg text-gray-900 mb-3">Анна, 32 года</h4>
-                <p className="text-gray-600">«На первой сессии я чувствовала только лёгкое тепло, но потом вдруг пришло ощущение огромного спокойствия и ясности. На следующей — тело само двигалось в такт музыке. Это был невероятный опыт доверия энергии.»</p>
+                <p className="text-gray-600">«На первой сессии я чувствовала только лёгкое тепло, но потом вдруг пришло ощущение огромного спокойствия и ясности. На следующей — тело само двигалось в такт музыке. Это был невероятный о��ыт доверия энергии.»</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h4 className="font-semibold text-lg text-gray-900 mb-3">Сергей, 41 год</h4>
-                <p className="text-gray-600">«Я скептически относился к таким практикам, но решил попробовать. В какой-то момент я словно вышел за пределы мыслей и почувствовал лёгкость, как будто сбросил груз. Впервые за долгое время спал глубоко и спокойно.»</p>
+                <p className="text-gray-600">«Я скептически относился к таким практикам, но решил попробовать. В какой-то момент я словно вышел за пределы мыслей и почувствовал лёгкость, как будто бросил груз. Впервые за долгое время спал глубоко и ��покойно.»</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h4 className="font-semibold text-lg text-gray-900 mb-3">Мария, 27 лет</h4>
-                <p className="text-gray-600">«Во время активации я плакала без остановки, и это было освобождающе. Будто внутри что-то мягко раскрылось. После я стала спокойнее реагировать на стрессовые ситуации.»</p>
+                <p className="text-gray-600">«Во вре��я а��тивации я плакала без остановки, и это было освобождающе. Будто внутри что-то мягко раскрылось. После я стала спокойнее реагировать на стрессовы�� ситуации.»</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h4 className="font-semibold text-lg text-gray-900 mb-3">Елена, 35 лет</h4>
-                <p className="text-gray-600">«Я давно практикую медитацию, но такого опыта у меня не было. Энергия текла сама, без моих усилий. Сессия дала очень глубоие инсайты о том, куда мне двигаться дальше в жизни.»</p>
+                <p className="text-gray-600">«Я давно практикую медитацию, но такого опыта у меня не было. Энергия текла сама, без моих усилий. Сессия дала очень глубокие инсайты о том, куда мне двигаться дальше в жизни.»</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg md:col-span-2">
                 <h4 className="font-semibold text-lg text-gray-900 mb-3">Дмитрий, 29 лет</h4>
-                <p className="text-gray-600">«начала я сомневался, получится ли у меня что-то почувствовать. Но через какое-то время тело само начало делать крии. Было ощущение, что меня кто-то мягко ведёт. Очень сильный опыт.»</p>
+                <p className="text-gray-600">«Снача��а я сомневался, получится ли у меня что-то почувствовать. Но через какое-то время тело само начало делать крийи. Было о��ущение, что меня кто-то мягко ведёт. Очень сильный опыт.»</p>
               </div>
             </div>
           </div>
@@ -526,8 +523,8 @@ export default function IndexSimple() {
               <p className="text-gray-600">
                 <div>
                   <p>
-                    Обретите внутренний мир и гармонию через
-                    сбалансированную работу с энергетическими центрами
+                    Обретите внутрен��ий мир и гармонию через
+                    сбалансированную работу с энергетиче��кими центрами
                   </p>
                 </div>
               </p>
@@ -538,11 +535,11 @@ export default function IndexSimple() {
                 <Zap className="w-6 h-6 text-yellow-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                <p>Энергетическое Пробуждение</p>
+                <p>Энергетическое Про��уждение</p>
               </h3>
               <div className="text-gray-600">
                 <p>
-                  Пробудите дремлющую энерию и откройте новые возможности
+                  Пробудите дремлющую энергию и откройте новые возможности
                   для духовного и личностного роста
                 </p>
               </div>
@@ -553,7 +550,7 @@ export default function IndexSimple() {
                 <Brain className="w-6 h-6 text-yellow-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                Расширение Сознания
+                ��асширение Сознания
               </h3>
               <div className="text-gray-600">
                 <p>
@@ -573,7 +570,7 @@ export default function IndexSimple() {
               <div className="text-gray-600">
                 <div>
                   <p>
-                    Освободитесь от блоков и травм прошлого, бретите
+                    Освободитесь от блоков и травм прошлого, обретите
                     целостность и внутреннюю силу
                   </p>
                 </div>
@@ -635,7 +632,7 @@ export default function IndexSimple() {
           <p className="text-xl text-purple-100 mb-8">
             <div>
               <p>
-                Начните своё путешествие к внутренней трансформации и
+                Начните своё путешествие к внутренней трансф��рмации и
                 духовному пробуждению уже сегодня! Запишитесь на
                 персональный сеанс активации Кундалини для глубокого опыта.
               </p>
@@ -667,7 +664,7 @@ export default function IndexSimple() {
                 Активация Кундалини
               </h3>
               <p className="text-gray-400">
-                Путь к духовному пробуждению через акивацию Кундалини
+                Путь к абсолютному пробуждению через активацию Кундалини
               </p>
             </div>
             <div>
@@ -675,7 +672,7 @@ export default function IndexSimple() {
               <ul className="space-y-2 text-gray-400">
                 <li><a href="/" className="hover:text-white transition-colors">Активация Кундалини</a></li>
                 <li><a href="#about-me" className="hover:text-white transition-colors">Обо мне</a></li>
-                <li><a href="#format-pricing" className="hover:text-white transition-colors">Формат и стоимост</a></li>
+                <li><a href="#format-pricing" className="hover:text-white transition-colors">Формат и стоимость</a></li>
                 <li><a href="#reviews" className="hover:text-white transition-colors">Отзывы</a></li>
                 <li><a href="#faq" className="hover:text-white transition-colors">Вопросы и ответы</a></li>
               </ul>
@@ -700,7 +697,7 @@ export default function IndexSimple() {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="text-gray-400">
-              © 2025 Активация Кундалини. Все права защищены.
+              © 2025 Акивация Кундалини. Все права защищены.
             </p>
           </div>
         </div>
@@ -712,7 +709,7 @@ export default function IndexSimple() {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          aria-label="Прокрутить вверх"
+          aria-label="Прокрутить вв��рх"
           className="fixed bottom-6 right-6 z-50 p-3 rounded-full bg-purple-600 text-white shadow-lg hover:bg-purple-700 transition-colors"
         >
           <ArrowUp className="w-5 h-5" />
