@@ -1,0 +1,20 @@
+# Set default behavior for all files
+* text=auto
+
+# Ensure text files are handled with UTF-8 encoding
+*.js text eol=lf encoding=UTF-8
+*.jsx text eol=lf encoding=UTF-8
+*.ts text eol=lf encoding=UTF-8
+*.tsx text eol=lf encoding=UTF-8
+*.html text eol=lf encoding=UTF-8
+*.css text eol=lf encoding=UTF-8
+*.json text eol=lf encoding=UTF-8
+*.md text eol=lf encoding=UTF-8
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary

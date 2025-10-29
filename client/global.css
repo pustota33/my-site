@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   * A different format will require also updating the theme in tailwind.config.ts.
+  */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 267 89% 67%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 267 37% 95%;
+    --secondary-foreground: 267 89% 67%;
+
+    --muted: 267 37% 95%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 267 37% 95%;
+    --accent-foreground: 267 89% 67%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 267 37% 90%;
+    --input: 267 37% 95%;
+    --ring: 267 89% 67%;
+
+    --radius: 0.5rem;
+
+    /* Purple scale */
+    --purple-50: 267 100% 98%;
+    --purple-100: 267 37% 95%;
+    --purple-200: 267 37% 90%;
+    --purple-300: 267 37% 82%;
+    --purple-400: 267 56% 72%;
+    --purple-500: 267 89% 67%;
+    --purple-600: 267 89% 60%;
+    --purple-700: 267 89% 53%;
+    --purple-800: 267 89% 46%;
+    --purple-900: 267 89% 39%;
+
+    /* Lavender scale */
+    --lavender-50: 267 100% 98%;
+    --lavender-100: 267 37% 95%;
+    --lavender-200: 267 37% 90%;
+    --lavender-300: 267 37% 82%;
+    --lavender-400: 267 56% 72%;
+    --lavender-500: 267 89% 67%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 267 89% 8%;
+    --foreground: 267 37% 95%;
+
+    --card: 267 89% 12%;
+    --card-foreground: 267 37% 95%;
+
+    --popover: 267 89% 12%;
+    --popover-foreground: 267 37% 95%;
+
+    --primary: 267 89% 67%;
+    --primary-foreground: 267 89% 8%;
+
+    --secondary: 267 89% 15%;
+    --secondary-foreground: 267 37% 95%;
+
+    --muted: 267 89% 15%;
+    --muted-foreground: 267 16% 65%;
+
+    --accent: 267 89% 15%;
+    --accent-foreground: 267 37% 95%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 267 37% 95%;
+
+    --border: 267 89% 15%;
+    --input: 267 89% 15%;
+    --ring: 267 89% 67%;
+
+    /* Purple scale - Dark mode */
+    --purple-50: 267 89% 8%;
+    --purple-100: 267 89% 12%;
+    --purple-200: 267 89% 15%;
+    --purple-300: 267 89% 20%;
+    --purple-400: 267 89% 30%;
+    --purple-500: 267 89% 67%;
+    --purple-600: 267 89% 60%;
+    --purple-700: 267 89% 53%;
+    --purple-800: 267 89% 46%;
+    --purple-900: 267 37% 95%;
+
+    /* Lavender scale - Dark mode */
+    --lavender-50: 267 89% 8%;
+    --lavender-100: 267 89% 12%;
+    --lavender-200: 267 89% 15%;
+    --lavender-300: 267 89% 20%;
+    --lavender-400: 267 89% 30%;
+    --lavender-500: 267 89% 67%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
